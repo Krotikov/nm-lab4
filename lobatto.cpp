@@ -23,7 +23,7 @@ double Lobatto::calc(double eps, int* count) {
     iNew *= newLen * 4.0 / 3.0;
     integVal = iNew + integValPrev / 2.0 - iPrev;
 
-    err = (integVal - integValPrev) / 3.0;
+    err = (integVal - integValPrev) / 15.0;
 
     n = 2 * n;
     len = newLen;

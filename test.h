@@ -6,7 +6,7 @@
 
 #define LBORD -3.3
 #define RBORD 0.9
-#define MAX_EPS 1e-9
+#define MAX_EPS 1e-11
 #define MIN_EPS 1e-1
 
 void Test(double (*func)(double), double (*antiDer)(double));
